@@ -1,0 +1,13 @@
+Use this CSS for making pfp in website
+
+.cropContainer {
+width: 200px;
+height: 200px;
+overflow: hidden;
+border-radius:50%;
+background-color: black;
+}
+.cropContainer img {
+margin-top: 0px;
+margin-left: -75px;
+}
