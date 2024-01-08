@@ -18,19 +18,19 @@
   const myprojects = [
     {
       name:"a",
-      pic:"pfp2.jpg",
+      pic:"./pfp2.jpg",
       desc:"b",
       link:"www.google.com"
     },
     {
       name:"b",
-      pic:"pfp2.jpg",
+      pic:"./pfp2.jpg",
       desc:"b",
       link:"www.google.com"
     },
     {
       name:"c",
-      pic:"pfp2.jpg",
+      pic:"./pfp2.jpg",
       desc:"b",
       link:"www.google.com"
     }
