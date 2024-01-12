@@ -1,13 +1,16 @@
 <script setup>
-  const { name, pic, desc, link } = defineProps([name,pic,desc,link]);
+  const { name, pic, desc, link } = defineProps(['name', 'pic', 'desc', 'link']);
 </script>
 
 <template>
   <div class="projComponent">
     <h3>{{name}}</h3>
-    <img :src="pic" :alt="name"/>
-    <p>{{desc}}</p>
-    <a :href="link">{{link}}</a>
+    <img v-if="pic!='./ProjectPics/project.png'" class="projectPic" :src="pic" :alt="name"/>
+    <div v-else style="align-content:center" class="defaultProjectPic">
+    <img style="width:75px;" :src="pic" :alt="name"/>
+    </div>
+    <p style="padding-left:15px; padding-right:15px;">{{desc}}</p>
+    <a v-if="link" :href="link">Link to Project</a>
   </div>
 </template>
 
@@ -15,6 +18,21 @@
 
 <style scoped>
   .projComponent{
-    background-color: #dee2e6;
+    justify-self:center;
+    text-align:center;
+    width:100%;
+    border-style:solid;
+    border-radius: 0% 0% 20px 20px;
+    padding-bottom:20px;
+  }
+  .projectPic{
+    border-radius:50%;
+    width: 100px;
+    height: 100px;
+  }
+  .defaultProjectPic{
+    border-radius:50%;
+    width: 100px;
+    height: 100px;
   }
 </style>

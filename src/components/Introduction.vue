@@ -1,7 +1,7 @@
 <template>
   <div class="introContainer">
     <div>
-      <img class="pfp" src="./pfp2.jpg"/>
+      <img class="pfp" src="pfp2.jpg"/>
     </div>
     <div class="introContainerTextItem">
       <p>

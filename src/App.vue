@@ -6,6 +6,7 @@
     <Intro class="main1" v-if="isLoading"/>
     <div class="ForAnimation main2" v-else>
       <Introduction/>
+      <hr style="width:75%;margin-top: 45px;margin-bottom: 45px;"/>
       <Projects/>
     </div>
   </div>
