@@ -24,23 +24,23 @@
     },
     {
       name:"Blockchain Contact Tracing App",
-      pic:"pfp.jpg",
+      pic:"",
       desc:"Frontend made for blockchain contact tracing app that does COVID contact tracing with help of anonymity offered by blockchain.",
       link:"https://github.com/Blockhain-Contact-Tracing/new-frontend"
     },
     {
       name:"Queue Management System",
-      pic:"./pfp.jpg",
+      pic:"",
       desc:"Queue management system made using HTML, CSS, Python for backend and Twilio.",
     },
     {
       name:"CamScribbler",
-      pic:"./pfp.jpg",
+      pic:"",
       desc:"Software made as an alternative for use of graphic tablets. Uses YOLO CV framework to draw on the digital canvas."
     },
     {
       name:"Ancient Helm Program",
-      pic:"./ProjectPics/project.png",
+      pic:"",
       desc:"AR swordfight simulator made as a tribute to Legend of Zelda: Breath of the Wild. Work in progress."
     }
   ]

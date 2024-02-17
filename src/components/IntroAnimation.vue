@@ -8,20 +8,18 @@
 
 <style scoped>
   .LoadingAnimation{
-    display:flex;
-    justify-content:center;
-    height:100%;
-    background-color:"#939393"
+    display:inline-block;
+    margin:auto;
+    align-self: center;
+    justify-self: center;
+    background-color:red;
   }
   
   .LoadingAnimationText{
     opacity:0;
-    height:100%;
-    align-self:center;
     animation: epicFadeInFadeOut 5s;
     font-size:25px;
-    color: #dee2e6;
-    background-color:black;
+    color: #3d3b4e;
   }
 
   @keyframes epicFadeInFadeOut{

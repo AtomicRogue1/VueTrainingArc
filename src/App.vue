@@ -8,6 +8,8 @@
       <Introduction/>
       <hr style="width:75%;margin-top: 45px;margin-bottom: 45px;"/>
       <Projects/>
+      <img class="earth" src="earthSpin.gif"/>
+      
     </div>
   </div>
 </template>
@@ -16,6 +18,7 @@
   import Intro from './components/IntroAnimation.vue';
   import Introduction from './components/Introduction.vue';
   import Projects from './components/Projects.vue';
+  import Socials from './components/FloatingSocials.vue';
   
   export default{
     components:{
@@ -44,7 +47,7 @@
 
   /* Other than intro animation, every component will have this class for sure.*/
   .main2{
-    color: #dee2e6;
+    color: #3d3b4e;
     font-family: 'Open Sans', sans-serif;
     align-items:center;
     margin-left:12%;
@@ -56,6 +59,13 @@
   .ForAnimation{
     animation: epicFadeIn 1s;
     animation-iteration-count: 1;
+  }
+
+  .earth {
+      position: sticky;
+      bottom: -100px ;
+      left: 50%;
+      transform: translateX(-50%) scale(2);
   }
 
   @keyframes epicFadeIn{
