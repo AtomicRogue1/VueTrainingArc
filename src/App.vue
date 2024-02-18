@@ -8,7 +8,7 @@
       <Introduction/>
       <hr style="width:75%;margin-top: 45px;margin-bottom: 45px;"/>
       <Projects/>
-      <img class="earth" src="earthSpin.gif"/>
+      <img class="earth" src="/public/earthSpin.gif"/>
       
     </div>
   </div>
@@ -42,7 +42,6 @@
   .main1{     
     color: #dee2e6;
     font-family: 'Open Sans', sans-serif;
-    align-items:center;
   }
 
   /* Other than intro animation, every component will have this class for sure.*/

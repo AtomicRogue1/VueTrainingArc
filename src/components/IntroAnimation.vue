@@ -8,17 +8,14 @@
 
 <style scoped>
   .LoadingAnimation{
-    display:inline-block;
-    margin:auto;
-    align-self: center;
-    justify-self: center;
-    background-color:red;
+    bottom:49%;
   }
   
   .LoadingAnimationText{
     opacity:0;
     animation: epicFadeInFadeOut 5s;
     font-size:25px;
+    text-align:center;
     color: #3d3b4e;
   }
 
