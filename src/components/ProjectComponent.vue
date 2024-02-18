@@ -7,7 +7,7 @@
     <h3>{{name}}</h3>
     <img v-if="pic!=''" class="projectPic" :src="pic" :alt="name"/>
     <div v-else style="align-content:center" class="defaultProjectPic">
-    <img style="width:75px;" src="ProjectPics/project.png" :alt="name"/>
+    <img style="width:75px;" src="/public/ProjectPics/project.png" :alt="name"/>
     </div>
     <p style="padding-left:15px; padding-right:15px;">{{desc}}</p>
     <a v-if="link" :href="link">Link to Project</a>

@@ -18,7 +18,7 @@
   const myprojects = [
     {
       name:"The Lighthouse (Game)",
-      pic:"ProjectPics/Lighthouse.png",
+      pic:"/public/ProjectPics/Lighthouse.png",
       desc:"2D platformer game, where I added more game mechanics to add more ways to play and made an experimental Cinematic system.",
       link:"https://github.com/AtomicRogue1/ProjectLighthouse"
     },
